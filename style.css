@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+  height: 523px;
+  border-radius: 23px;
+  background-color: #f0f8ff;
+}
+
+.quiz-header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.quiz-header ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  list-style-type: none;
+  margin-bottom: 83px;
+  margin-left: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.quiz-header ul li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.quiz-header__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+button {
+  height: 4rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  width: 100%;
+  border-radius: 9px;
+}
+
+/*# sourceMappingURL=style.css.map */
